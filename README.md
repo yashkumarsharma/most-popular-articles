@@ -1,5 +1,10 @@
 # Most Popular Articles
 
+## Project Setup
+Copy .env.sample to .env `cp .env.sample .env`\
+Add your API key in .env\
+Run `npm start`
+
 ## Available Scripts
 ### `npm start`
 Runs the app in the development mode.\
