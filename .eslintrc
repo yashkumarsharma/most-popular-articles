@@ -10,18 +10,11 @@
     "eqeqeq": "error",
     "no-restricted-globals": ["error", "self"],
     "import/prefer-default-export": 1,
-    "import/no-extraneous-dependencies": ["error", {
-      "devDependencies": ["**/*.story.jsx", "**/*.story.js",
-      "**/*.spec.jsx", "**/*.spec.js",
-      "app/**",
-      "**/tests/*.*", "**/tests/**/*.*", "**/tasks/**/*.js", "**/config/**/*.js", "gulpfile.js", "storybook/**"],
-      "packageDir": "./"
-    }],
     "class-methods-use-this": 1,
     "no-restricted-syntax": 1,
     "no-use-before-define": 0,
     "no-param-reassign": 1,
-    "no-console": 2,
+    "no-console": 1,
     "no-useless-escape": 1,
     "new-cap": 0,
     "func-names": 0,
@@ -46,7 +39,8 @@
     "react/jsx-props-no-spreading": 0,
     "react/prop-types": [1, { "skipUndeclared": true }],
     "indent": ["error", 2],
-    "semi": ["error", "never"]
+    "semi": ["error", "never"],
+    "no-trailing-spaces": ["error", { "ignoreComments": true }]
   },
   "ignorePatterns": [
     "build/",
