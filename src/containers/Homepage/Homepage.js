@@ -1,17 +1,14 @@
-import React, { useEffect } from 'react'
+import { connect } from 'react-redux'
+import fetchArticles from './store/saga'
+import Homepage from '../../pages/Homepage'
 
-import fetchArticles from '../../apis'
+const mapStateToProps = ({ popularArticles }) => ({
+  isLoading: popularArticles.isLoading,
+  articles: popularArticles.articles,
+})
 
-const Homepage = () => {
-  useEffect(() => {
-    fetchArticles()
-  }, [])
+const mapDispatchToProps = (dispatch) => ({
+  fetchArticles: () => fetchArticles(dispatch),
+})
 
-  return (
-    <>
-      Yash
-    </>
-  )
-}
-
-export default Homepage
+export default connect(mapStateToProps, mapDispatchToProps)(Homepage)

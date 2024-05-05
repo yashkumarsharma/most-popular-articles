@@ -1,11 +1,18 @@
-// Using this single file for now,
-// As the project grow bigger we can split into multiple files
-// Or util containing axios configuration
 import axios from 'axios'
 
-const fetchArticles = async () => {
-  const url = `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${process.env.REACT_APP_API_KEY}`
-  return await axios({ url })
+const axiosInstance = axios.create({
+  baseURL: 'https://api.nytimes.com/svc/',
+  timeout: 1000,
+})
+
+// Can extend this to accept other methods
+// Write now only configred for GET call
+const apiCall = async ({ url }) => {
+  const params = {
+    'api-key': process.env.REACT_APP_API_KEY,
+  }
+
+  return await axiosInstance({ url, params })
 }
 
-export default fetchArticles
+export default apiCall
