@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 // eslint-disable-next-line import/prefer-default-export
 export const mockArticle = {
   'uri': 'nyt://article/7d22b056-2e3b-5778-b1c4-526f651778b9',
@@ -15,7 +16,7 @@ export const mockArticle = {
   'byline': 'By Kwame Anthony Appiah',
   'type': 'Article',
   'title': 'My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?',
-  'abstract': 'The magazine\'s Ethicist columnist on whether to keep your teenager’s.',
+  'abstract': 'The magazine\'s Ethicist columnist on whether to keep your teenager’s sexual relationship secret  — and more.',
   'des_facet': [
     'Ethics (Personal)',
     'Content Type: Service',
@@ -32,19 +33,19 @@ export const mockArticle = {
       'approved_for_syndication': 0,
       'media-metadata': [
         {
-          'url': 'https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg',
+          'url': 'https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg',
           'format': 'Standard Thumbnail',
           'height': 75,
           'width': 75,
         },
         {
-          'url': 'https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo210.jpg',
+          'url': 'https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo210.jpg',
           'format': 'mediumThreeByTwo210',
           'height': 140,
           'width': 210,
         },
         {
-          'url': 'https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo440.jpg',
+          'url': 'https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo440.jpg',
           'format': 'mediumThreeByTwo440',
           'height': 293,
           'width': 440,

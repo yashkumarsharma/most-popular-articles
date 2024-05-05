@@ -46,6 +46,7 @@
     "build/",
     "coverage/",
     "cypress/",
-    "**/*.chunk.js"
+    "**/*.chunk.js",
+    "**/*.cy.js"
   ]
 }
