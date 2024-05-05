@@ -7,14 +7,18 @@ import {
 
 const Homepage = (props) => {
   const [selectedArticle, setSelectedArticle] = useState({})
-  const { fetchArticles, articles = [] } = props
+  const { fetchArticles, articles = [], isLoading } = props
 
   useEffect(() => {
     fetchArticles()
   }, [fetchArticles])
 
   const handleArticleClick = (id) => {
-    setSelectedArticle(articles.find((article) => article.id === id))
+    setSelectedArticle((articles || []).find((article) => article.id === id))
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
   }
 
   useEffect(() => {
@@ -27,13 +31,18 @@ const Homepage = (props) => {
   }, [articles.length])
 
   return (
-    <>
+    <div className='flex flex-col-reverse md:flex-row'>
       <ArticleList
+        isLoading={isLoading}
+        selectedArticleId={selectedArticle?.id}
         articles={articles}
         onClick={handleArticleClick}
       />
-      <SingleArticle article={selectedArticle} />
-    </>
+      <SingleArticle
+        isLoading={isLoading}
+        article={selectedArticle}
+      />
+    </div>
   )
 }
 

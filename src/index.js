@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import store from './store/store'
 import Homepage from './containers/Homepage'
 import reportWebVitals from './reportWebVitals'
+import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
