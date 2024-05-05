@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Tags from './Tags'
+import Tags from '../Tags'
 
 describe('check Tags', () => {
   it('renders null when no props passed', () => {

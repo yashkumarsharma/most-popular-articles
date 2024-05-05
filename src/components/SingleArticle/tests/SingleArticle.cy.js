@@ -1,7 +1,7 @@
 import React from 'react'
 
-import SingleArticle from './SingleArticle'
-import { mockArticle } from './tests/mockData'
+import SingleArticle from '../SingleArticle'
+import { mockArticle } from './mockData'
 
 describe('<SingleArticle />', () => {
   it('renders', () => {
