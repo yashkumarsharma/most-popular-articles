@@ -4,14 +4,14 @@ exports[`check ArticleList renders correctly when articles are passed 1`] = `
 <div
   className="md:w-2/5 md:max-h-full m-10"
 >
-  <ul>
+  <div>
     <h2
       className="text-lg font-semibold mb-4"
     >
        Article List 
     </h2>
-    <li
-      className="border rounded-lg p-4 cursor-pointer hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20"
+    <button
+      className="border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
       data-testid="list-card"
       onClick={[Function]}
     >
@@ -40,8 +40,8 @@ exports[`check ArticleList renders correctly when articles are passed 1`] = `
           </p>
         </div>
       </div>
-    </li>
-  </ul>
+    </button>
+  </div>
 </div>
 `;
 
@@ -49,12 +49,12 @@ exports[`check ArticleList renders correctly when no articles passed 1`] = `
 <div
   className="md:w-2/5 md:max-h-full m-10"
 >
-  <ul>
+  <div>
     <h2
       className="text-lg font-semibold mb-4"
     >
        Article List 
     </h2>
-  </ul>
+  </div>
 </div>
 `;

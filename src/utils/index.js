@@ -4,7 +4,7 @@ const THUMBNAIL = 'Standard Thumbnail'
 const MEDIUMIMAGE = 'mediumThreeByTwo210'
 const LARGEIMAGE = 'mediumThreeByTwo440'
 
-const getImage = (media = [], type) => {
+const getImage = (media = [], type = '') => {
   const image = media.find(m => m.type === 'image') || {}
   const imageMetaData = image['media-metadata'] || []
   const imageData = imageMetaData.find((item) => item?.format === type) || {}

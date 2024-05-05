@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import { getLargeImage, formatDate } from '../../utils'
 import Tags from '../Tags'
 
@@ -54,6 +56,10 @@ const SingleArticle = ({ article = {} }) => {
       />
     </div>
   )
+}
+
+SingleArticle.propTypes = {
+  article: PropTypes.shape({}),
 }
 
 export default SingleArticle

@@ -10,7 +10,7 @@ const initialState = {
   error: false,
 }
 
-// Todo: Use ImmutableJS for better state operations
+// Use ImmutableJS for better state operations
 function popularArticlesReducer(state = initialState, action) {
   switch (action.type) {
   case GET_POPULAR_ARTICLES_REQUEST:

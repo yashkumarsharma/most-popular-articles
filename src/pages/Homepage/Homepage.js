@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import PropTypes from 'prop-types'
 
 import {
   ArticleList,
@@ -44,6 +45,12 @@ const Homepage = (props) => {
       />
     </div>
   )
+}
+
+Homepage.propTypes = {
+  fetchArticles: PropTypes.func,
+  articles: PropTypes.arrayOf(PropTypes.shape({})),
+  isLoading: PropTypes.bool,
 }
 
 export default Homepage

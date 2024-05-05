@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { getThumbnailImage, formatDate } from '../../utils'
 
 const ArticleList = (props) => {
@@ -11,10 +12,10 @@ const ArticleList = (props) => {
     const image = getThumbnailImage(media)
 
     return (
-      <li
+      <button
         key={id}
         onClick={() => onClick(id)}
-        className='border rounded-lg p-4 cursor-pointer hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20'
+        className='border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full'
         data-testid='list-card'
       >
         <div className='mr-4 flex-shrink-0'>
@@ -26,18 +27,23 @@ const ArticleList = (props) => {
             <p data-testid='date'>{formatDate(published_date)}</p>
           </div>
         </div>
-      </li>
+      </button>
     )
   }
 
   return (
     <div className='md:w-2/5 md:max-h-full m-10'>
-      <ul>
+      <div>
         <h2 className='text-lg font-semibold mb-4'> Article List </h2>
         {articles.map(renderList)}
-      </ul>
+      </div>
     </div>
   )
+}
+
+ArticleList.propTypes = {
+  articles: PropTypes.arrayOf(PropTypes.shape({})),
+  onClick: PropTypes.func,
 }
 
 export default ArticleList
