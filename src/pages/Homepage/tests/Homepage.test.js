@@ -1,8 +1,8 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import Homepage from './Homepage'
-import { mockArticles } from './mockData'
+import Homepage from '../Homepage'
+import { mockArticles } from '../../../mockData'
 
 describe('check Homepage', () => {
   it('renders correctly when no data is passed', () => {

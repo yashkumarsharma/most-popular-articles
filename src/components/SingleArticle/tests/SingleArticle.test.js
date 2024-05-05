@@ -2,7 +2,9 @@ import React from 'react'
 import renderer from 'react-test-renderer'
 
 import SingleArticle from '../SingleArticle'
-import { mockArticle } from './mockData'
+import { mockArticles } from '../../../mockData'
+
+const mockArticle = mockArticles[0]
 
 describe('check SingleArticle', () => {
   it('renders correctly when no article is passed', () => {

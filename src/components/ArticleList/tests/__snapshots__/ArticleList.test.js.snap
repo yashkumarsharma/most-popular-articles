@@ -21,7 +21,7 @@ exports[`check ArticleList renders correctly when articles are passed 1`] = `
         <img
           alt="My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?"
           className="w-20 h-20 object-cover"
-          src="https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
+          src="https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
         />
       </div>
       <div>
