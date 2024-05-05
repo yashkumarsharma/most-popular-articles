@@ -52,6 +52,8 @@
     "react-test-renderer": "^18.3.1"
   },
   "jest": {
-    "coveragePathIgnorePatterns": [".*.cy.js"]
+    "coveragePathIgnorePatterns": [
+      ".*.cy.js"
+    ]
   }
 }

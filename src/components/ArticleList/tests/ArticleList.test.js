@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import ArticleList from './ArticleList'
+import ArticleList from '../ArticleList'
 import { mockArticles } from './mockData'
 
 describe('check ArticleList', () => {

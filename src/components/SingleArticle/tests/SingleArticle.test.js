@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import SingleArticle from './SingleArticle'
+import SingleArticle from '../SingleArticle'
 import { mockArticle } from './mockData'
 
 describe('check SingleArticle', () => {
