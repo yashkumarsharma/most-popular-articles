@@ -2,8 +2,8 @@ import { getThumbnailImage, formatDate } from '../../utils'
 
 const ArticleList = (props) => {
   const {
-    articles,
-    onClick,
+    articles = [],
+    onClick = () => {},
   } = props
 
   const renderList = (article = {}) => {
@@ -23,7 +23,7 @@ const ArticleList = (props) => {
         <div>
           <p className='font-semibold line-clamp-2'>{title}</p>
           <div className='text-sm text-gray-500'>
-            <p className=''>{formatDate(published_date)}</p>
+            <p data-testid='date'>{formatDate(published_date)}</p>
           </div>
         </div>
       </li>

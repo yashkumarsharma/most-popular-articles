@@ -24,7 +24,7 @@ const SingleArticle = ({ article = {} }) => {
       <div className='mb-4 text-center'>
         <img src={image} alt={title} className='w-full mx-auto rounded-lg shadow-lg' />
         <div className='flex flex-row justify-between max-w-2/3 mx-auto'>
-          <div className='text-sm text-gray-600'>
+          <div className='text-sm text-gray-600' data-testid='date-details'>
             Published on {formatDate(published_date)}
           </div>
           <div className='text-sm text-gray-600'>{byline}</div>

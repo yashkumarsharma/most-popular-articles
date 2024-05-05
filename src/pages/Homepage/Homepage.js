@@ -7,7 +7,7 @@ import {
 
 const Homepage = (props) => {
   const [selectedArticle, setSelectedArticle] = useState({})
-  const { fetchArticles, articles = [], isLoading } = props
+  const { fetchArticles = () => {}, articles = [], isLoading } = props
 
   useEffect(() => {
     fetchArticles()

@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check SingleArticle renders correctly when article is passed 1`] = `
+<div
+  className="overflow-y-auto md:w-3/5 bg-gray-100 p-4 md:mt-0 mt-4"
+  data-testid="article-details"
+>
+  <h3
+    className="text-2xl font-semibold mb-2"
+  >
+    My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?
+  </h3>
+  <div
+    className="mb-4 text-center"
+  >
+    <img
+      alt="My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?"
+      className="w-full mx-auto rounded-lg shadow-lg"
+      src="https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo440.jpg"
+    />
+    <div
+      className="flex flex-row justify-between max-w-2/3 mx-auto"
+    >
+      <div
+        className="text-sm text-gray-600"
+        data-testid="date-details"
+      >
+        Published on 
+        22 Mar 2022
+      </div>
+      <div
+        className="text-sm text-gray-600"
+      >
+        By Kwame Anthony Appiah
+      </div>
+    </div>
+  </div>
+  <p
+    className="mb-4"
+  >
+    The magazine's Ethicist columnist on whether to keep your teenager’s.
+  </p>
+  <div
+    className="mb-4"
+  >
+    <h4
+      className="font-semibold mb-2"
+    >
+      Descriptive Terms
+    </h4>
+    <div
+      className="text-sm text-gray-600"
+    >
+      <div
+        className="inline-block bg-gray-200 rounded-full px-3 py-1 m-1"
+      >
+        <span>
+          Ethics (Personal)
+        </span>
+      </div>
+      <div
+        className="inline-block bg-gray-200 rounded-full px-3 py-1 m-1"
+      >
+        <span>
+          Content Type: Service
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-4"
+  >
+    <h4
+      className="font-semibold mb-2"
+    >
+      Keywords
+    </h4>
+    <div
+      className="text-sm text-gray-600"
+    >
+      <div
+        className="inline-block bg-gray-200 rounded-full px-3 py-1 m-1"
+      >
+        <span>
+          Ethics (Personal)
+        </span>
+      </div>
+      <div
+        className="inline-block bg-gray-200 rounded-full px-3 py-1 m-1"
+      >
+        <span>
+          Content Type: Service
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`check SingleArticle renders correctly when no article is passed 1`] = `
+<div
+  className="overflow-y-auto md:w-3/5 bg-gray-100 p-4 md:mt-0 mt-4"
+  data-testid="article-details"
+>
+  <h3
+    className="text-2xl font-semibold mb-2"
+  />
+  <div
+    className="mb-4 text-center"
+  >
+    <img
+      className="w-full mx-auto rounded-lg shadow-lg"
+      src=""
+    />
+    <div
+      className="flex flex-row justify-between max-w-2/3 mx-auto"
+    >
+      <div
+        className="text-sm text-gray-600"
+        data-testid="date-details"
+      >
+        Published on 
+      </div>
+      <div
+        className="text-sm text-gray-600"
+      />
+    </div>
+  </div>
+  <p
+    className="mb-4"
+  />
+</div>
+`;

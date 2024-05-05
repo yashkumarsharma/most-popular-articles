@@ -6,12 +6,9 @@ const LARGEIMAGE = 'mediumThreeByTwo440'
 
 const getImage = (media = [], type) => {
   const image = media.find(m => m.type === 'image') || {}
-
   const imageMetaData = image['media-metadata'] || []
-
   const imageData = imageMetaData.find((item) => item?.format === type) || {}
-
-  return imageData.url
+  return imageData.url || ''
 }
 
 const getThumbnailImage = (media) => {
@@ -27,6 +24,7 @@ const getLargeImage = (media) => {
 }
 
 const formatDate = (dateString) => {
+  if(!dateString) return ''
   const parsedDate = moment(dateString)
   const formattedDate = parsedDate.format('DD MMM YYYY')
   return formattedDate

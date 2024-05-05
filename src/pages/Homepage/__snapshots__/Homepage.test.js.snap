@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check Homepage renders correctly when data is passed 1`] = `
+<div
+  className="flex flex-col-reverse md:flex-row"
+>
+  <div
+    className="md:w-2/5 md:max-h-full m-10"
+  >
+    <ul>
+      <h2
+        className="text-lg font-semibold mb-4"
+      >
+         Article List 
+      </h2>
+      <li
+        className="border rounded-lg p-4 cursor-pointer hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20"
+        data-testid="list-card"
+        onClick={[Function]}
+      >
+        <div
+          className="mr-4 flex-shrink-0"
+        >
+          <img
+            alt="My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?"
+            className="w-20 h-20 object-cover"
+            src="https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
+          />
+        </div>
+        <div>
+          <p
+            className="font-semibold line-clamp-2"
+          >
+            My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?
+          </p>
+          <div
+            className="text-sm text-gray-500"
+          >
+            <p
+              data-testid="date"
+            >
+              22 Mar 2022
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="overflow-y-auto md:w-3/5 bg-gray-100 p-4 md:mt-0 mt-4"
+    data-testid="article-details"
+  >
+    <h3
+      className="text-2xl font-semibold mb-2"
+    />
+    <div
+      className="mb-4 text-center"
+    >
+      <img
+        className="w-full mx-auto rounded-lg shadow-lg"
+        src=""
+      />
+      <div
+        className="flex flex-row justify-between max-w-2/3 mx-auto"
+      >
+        <div
+          className="text-sm text-gray-600"
+          data-testid="date-details"
+        >
+          Published on 
+        </div>
+        <div
+          className="text-sm text-gray-600"
+        />
+      </div>
+    </div>
+    <p
+      className="mb-4"
+    />
+  </div>
+</div>
+`;
+
+exports[`check Homepage renders correctly when no data is passed 1`] = `
+<div
+  className="flex flex-col-reverse md:flex-row"
+>
+  <div
+    className="md:w-2/5 md:max-h-full m-10"
+  >
+    <ul>
+      <h2
+        className="text-lg font-semibold mb-4"
+      >
+         Article List 
+      </h2>
+    </ul>
+  </div>
+  <div
+    className="overflow-y-auto md:w-3/5 bg-gray-100 p-4 md:mt-0 mt-4"
+    data-testid="article-details"
+  >
+    <h3
+      className="text-2xl font-semibold mb-2"
+    />
+    <div
+      className="mb-4 text-center"
+    >
+      <img
+        className="w-full mx-auto rounded-lg shadow-lg"
+        src=""
+      />
+      <div
+        className="flex flex-row justify-between max-w-2/3 mx-auto"
+      >
+        <div
+          className="text-sm text-gray-600"
+          data-testid="date-details"
+        >
+          Published on 
+        </div>
+        <div
+          className="text-sm text-gray-600"
+        />
+      </div>
+    </div>
+    <p
+      className="mb-4"
+    />
+  </div>
+</div>
+`;
