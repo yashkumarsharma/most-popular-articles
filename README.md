@@ -1,20 +1,24 @@
 # Most Popular Articles
 
-## Project Setup
+## How to install dependencies
+Run `npm install`
+
+## How to run the project
 Copy .env.sample to .env `cp .env.sample .env`\
 Add your API key in .env\
 Run `npm start`
 
-## Available Scripts
-### `npm start`
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to prepare production build
+Run `npm run build`
 
-### `npm test`
-Launches the test runner in the interactive watch mode.
+## How to run tests
+Run `npm test`
 
-### `npm run build`
-Builds the app for production to the `build` folder.
+## How to check lint issues
+Run `npm run lint`
 
-### `npm run lint`
-Check the lint errors in the project.
+## How to check code coverage
+Run `npm run coverage`
+
+## Sonar Report
+![logo](https://github.com/yashkumarsharma/most-popular-articles/blob/master/report.png)
