@@ -18,11 +18,13 @@ const ArticleList = (props) => {
       <button
         key={id}
         onClick={() => onClick(id)}
-        className='border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full'
+        className='list-card border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full'
         data-testid='list-card'
       >
         <div className='mr-4 flex-shrink-0'>
-          <img className='w-20 h-20 object-cover' src={image} alt={title} />
+          {!!image && (
+            <img className='w-20 h-20 object-cover' src={image} alt={title} />
+          )}
         </div>
         <div>
           <p className='font-semibold line-clamp-2'>{title}</p>

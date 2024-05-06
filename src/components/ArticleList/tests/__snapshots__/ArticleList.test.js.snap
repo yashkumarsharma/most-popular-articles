@@ -15,7 +15,70 @@ exports[`check ArticleList renders correctly when Component isLoading 1`] = `
       aria-live="polite"
     >
       <span
-        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex-1 items-center bg-gray-200 mb-2 h-20 w-full"
         style={Object {}}
       >
         ‌
@@ -37,7 +100,7 @@ exports[`check ArticleList renders correctly when articles are passed 1`] = `
        Article List 
     </h2>
     <button
-      className="border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
+      className="list-card border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
       data-testid="list-card"
       onClick={[Function]}
     >
@@ -47,7 +110,7 @@ exports[`check ArticleList renders correctly when articles are passed 1`] = `
         <img
           alt="My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?"
           className="w-20 h-20 object-cover"
-          src="https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
+          src="https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
         />
       </div>
       <div>

@@ -24,6 +24,7 @@
     "lint": "eslint \"**/**/*.{js,jsx}\"",
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage a",
+    "cypress":"cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

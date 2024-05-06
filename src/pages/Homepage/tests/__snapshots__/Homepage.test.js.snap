@@ -15,7 +15,7 @@ exports[`check Homepage renders correctly when data is passed 1`] = `
          Article List 
       </h2>
       <button
-        className="border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
+        className="list-card border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
         data-testid="list-card"
         onClick={[Function]}
       >
@@ -25,7 +25,7 @@ exports[`check Homepage renders correctly when data is passed 1`] = `
           <img
             alt="My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?"
             className="w-20 h-20 object-cover"
-            src="https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
+            src="https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-thumbStandard.jpg"
           />
         </div>
         <div>
@@ -58,7 +58,7 @@ exports[`check Homepage renders correctly when data is passed 1`] = `
       className="mb-4 text-center"
     >
       <img
-        className="w-full mx-auto rounded-lg shadow-lg"
+        className="article-image w-full mx-auto rounded-lg shadow-lg"
         src=""
       />
       <div
@@ -109,7 +109,7 @@ exports[`check Homepage renders correctly when no data is passed 1`] = `
       className="mb-4 text-center"
     >
       <img
-        className="w-full mx-auto rounded-lg shadow-lg"
+        className="article-image w-full mx-auto rounded-lg shadow-lg"
         src=""
       />
       <div

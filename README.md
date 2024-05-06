@@ -20,5 +20,8 @@ Run `npm run lint`
 ## How to check code coverage
 Run `npm run coverage`
 
+## How to run cypress tests
+Run `npm run cypress`
+
 ## Sonar Report
 ![logo](https://github.com/yashkumarsharma/most-popular-articles/blob/master/report.png)

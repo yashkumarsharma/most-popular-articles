@@ -15,8 +15,8 @@ exports[`check SingleArticle renders correctly when article is passed 1`] = `
   >
     <img
       alt="My Daughter Is Having Sex With Her Best Friend. Must I Tell Her Mom?"
-      className="w-full mx-auto rounded-lg shadow-lg"
-      src="https://static01.nyt.com/images/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo440.jpg"
+      className="article-image w-full mx-auto rounded-lg shadow-lg"
+      src="https://static01.nyt.com/images/2022/03/27/magazine/27mag-ethicist/27mag-ethicist-mediumThreeByTwo440.jpg"
     />
     <div
       className="flex flex-row justify-between max-w-2/3 mx-auto"
@@ -109,7 +109,7 @@ exports[`check SingleArticle renders correctly when no article is passed 1`] = `
     className="mb-4 text-center"
   >
     <img
-      className="w-full mx-auto rounded-lg shadow-lg"
+      className="article-image w-full mx-auto rounded-lg shadow-lg"
       src=""
     />
     <div

@@ -37,7 +37,7 @@ const SingleArticle = (props) => {
         <div className='overflow-y-auto md:w-3/5 bg-gray-100 p-4 md:mt-0 mt-4' data-testid='article-details'>
           <h3 className='text-2xl font-semibold mb-2'>{title}</h3>
           <div className='mb-4 text-center'>
-            <img src={image} alt={title} className='w-full mx-auto rounded-lg shadow-lg' />
+            <img src={image} alt={title} className='article-image w-full mx-auto rounded-lg shadow-lg' />
             <div className='flex flex-row justify-between max-w-2/3 mx-auto'>
               <div className='text-sm text-gray-600' data-testid='date-details'>
                 Published on {formatDate(published_date)}
