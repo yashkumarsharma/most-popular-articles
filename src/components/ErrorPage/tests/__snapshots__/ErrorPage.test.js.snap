@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check ErrorPage renders correctly 1`] = `
+<div
+  className="flex justify-center items-center h-screen"
+>
+  Something went wrong! Please try again later!
+</div>
+`;

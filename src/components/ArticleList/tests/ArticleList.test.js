@@ -11,23 +11,30 @@ describe('check ArticleList', () => {
     expect(tree).toMatchSnapshot()
   })
 
+  it('renders correctly when Component isLoading', () => {
+    const tree = renderer
+      .create(<ArticleList isLoading={true} articles={mockArticles} onClick={() => {}} />)
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
   it('renders correctly when articles are passed', () => {
     const tree = renderer
-      .create(<ArticleList articles={mockArticles} onClick={() => {}} />)
+      .create(<ArticleList isLoading={false} articles={mockArticles} onClick={() => {}} />)
       .toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   it('renders correct numer of li elements', () => {
     const tree = renderer
-      .create(<ArticleList articles={mockArticles} />)
+      .create(<ArticleList isLoading={false} articles={mockArticles} />)
 
     expect(tree.root.findAllByProps({ 'data-testid': 'list-card' }).length).toBe(mockArticles.length)
   })
 
   it('renders correct date on li elements', () => {
     const tree = renderer
-      .create(<ArticleList articles={mockArticles} />)
+      .create(<ArticleList isLoading={false} articles={mockArticles} />)
 
     expect(tree.root.findByProps({ 'data-testid': 'date' }).children).toStrictEqual([ '22 Mar 2022' ])
   })

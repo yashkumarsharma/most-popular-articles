@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const axiosInstance = axios.create({
+export const axiosInstance = axios.create({
   baseURL: 'https://api.nytimes.com/svc/',
   timeout: 1000,
 })

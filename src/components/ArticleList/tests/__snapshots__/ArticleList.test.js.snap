@@ -1,5 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`check ArticleList renders correctly when Component isLoading 1`] = `
+<div
+  className="md:w-2/5 md:max-h-full m-10"
+>
+  <div>
+    <h2
+      className="text-lg font-semibold mb-4"
+    >
+       Article List 
+    </h2>
+    <span
+      aria-busy={true}
+      aria-live="polite"
+    >
+      <span
+        className="react-loading-skeleton border rounded-lg p-4 hover:border-blue-500 flex items-center bg-gray-200 mb-2 h-20 w-full"
+        style={Object {}}
+      >
+        ‌
+      </span>
+      <br />
+    </span>
+  </div>
+</div>
+`;
+
 exports[`check ArticleList renders correctly when articles are passed 1`] = `
 <div
   className="md:w-2/5 md:max-h-full m-10"

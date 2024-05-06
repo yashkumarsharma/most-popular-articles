@@ -55,6 +55,9 @@
   "jest": {
     "coveragePathIgnorePatterns": [
       ".*.cy.js"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^axios$": "axios/dist/node/axios.cjs"
+    }
   }
 }

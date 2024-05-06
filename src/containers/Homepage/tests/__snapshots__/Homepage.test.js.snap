@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check Homepage Container renders correctly when article is passed 1`] = `
+<div
+  className="flex flex-col-reverse md:flex-row"
+  data-testid="container"
+>
+  <div
+    className="md:w-2/5 md:max-h-full m-10"
+  >
+    <div>
+      <h2
+        className="text-lg font-semibold mb-4"
+      >
+         Article List 
+      </h2>
+    </div>
+  </div>
+  <span
+    aria-busy={true}
+    aria-live="polite"
+  >
+    <span
+      className="react-loading-skeleton bg-gray-400 p-80 flex h-full w-full"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <br />
+  </span>
+</div>
+`;
+
+exports[`check Homepage Container renders correctly when error is true 1`] = `
+<div
+  className="flex flex-col-reverse md:flex-row"
+  data-testid="container"
+>
+  <div
+    className="md:w-2/5 md:max-h-full m-10"
+  >
+    <div>
+      <h2
+        className="text-lg font-semibold mb-4"
+      >
+         Article List 
+      </h2>
+    </div>
+  </div>
+  <span
+    aria-busy={true}
+    aria-live="polite"
+  >
+    <span
+      className="react-loading-skeleton bg-gray-400 p-80 flex h-full w-full"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <br />
+  </span>
+</div>
+`;
+
+exports[`check Homepage Container renders correctly when isLoading is true 1`] = `
+<div
+  className="flex flex-col-reverse md:flex-row"
+  data-testid="container"
+>
+  <div
+    className="md:w-2/5 md:max-h-full m-10"
+  >
+    <div>
+      <h2
+        className="text-lg font-semibold mb-4"
+      >
+         Article List 
+      </h2>
+    </div>
+  </div>
+  <span
+    aria-busy={true}
+    aria-live="polite"
+  >
+    <span
+      className="react-loading-skeleton bg-gray-400 p-80 flex h-full w-full"
+      style={Object {}}
+    >
+      ‌
+    </span>
+    <br />
+  </span>
+</div>
+`;
+
+exports[`check Homepage Container renders correctly when no props is passed 1`] = `
+<div
+  className="flex flex-col-reverse md:flex-row"
+  data-testid="container"
+>
+  <div
+    className="md:w-2/5 md:max-h-full m-10"
+  >
+    <div>
+      <h2
+        className="text-lg font-semibold mb-4"
+      >
+         Article List 
+      </h2>
+    </div>
+  </div>
+  <div
+    className="overflow-y-auto md:w-3/5 bg-gray-100 p-4 md:mt-0 mt-4"
+    data-testid="article-details"
+  >
+    <h3
+      className="text-2xl font-semibold mb-2"
+    />
+    <div
+      className="mb-4 text-center"
+    >
+      <img
+        className="w-full mx-auto rounded-lg shadow-lg"
+        src=""
+      />
+      <div
+        className="flex flex-row justify-between max-w-2/3 mx-auto"
+      >
+        <div
+          className="text-sm text-gray-600"
+          data-testid="date-details"
+        >
+          Published on 
+        </div>
+        <div
+          className="text-sm text-gray-600"
+        />
+      </div>
+    </div>
+    <p
+      className="mb-4"
+    />
+  </div>
+</div>
+`;

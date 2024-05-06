@@ -3,6 +3,7 @@
 exports[`check Homepage renders correctly when data is passed 1`] = `
 <div
   className="flex flex-col-reverse md:flex-row"
+  data-testid="container"
 >
   <div
     className="md:w-2/5 md:max-h-full m-10"
@@ -84,6 +85,7 @@ exports[`check Homepage renders correctly when data is passed 1`] = `
 exports[`check Homepage renders correctly when no data is passed 1`] = `
 <div
   className="flex flex-col-reverse md:flex-row"
+  data-testid="container"
 >
   <div
     className="md:w-2/5 md:max-h-full m-10"
